@@ -10,4 +10,4 @@ ENV PROXY_PORT 8000
 
 EXPOSE 8000
 
-CMD ["hpts -s $SOCKS_SERVER -p $PROXY_PORT"]
+CMD ["hpts -h"]
