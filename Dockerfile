@@ -1,4 +1,4 @@
-FROM mkenney/npm
+FROM node:slim 
 
 RUN npm install -g http-proxy-to-socks
 
